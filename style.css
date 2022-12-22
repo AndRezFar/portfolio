@@ -1,0 +1,127 @@
+/* Fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Roboto&display=swap');
+
+/* corpo */
+
+body {
+    background-position: top;
+    background-color: #01063f;
+    background-image: url(../images/tela_de_fundo.png);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.linkTree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 17%;
+}
+
+/* foto */
+.foto {
+    /* Foto de Perfil */
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* descricao */
+
+.informacoes, .nome {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0%;
+}
+
+.nome {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.informacoes {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+/* links */
+
+.links{
+    /* posicao */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+    /* Tamanho */
+    width: 50rem;
+    height: 280px;
+
+    /* definição da cor dos Links */
+    background-color: rgba(217, 217, 217, 0.42);
+
+    /* borda */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+}
+
+.link {
+    margin: 0 5% 0 5%;
+    align-items: center;
+    text-align: center;
+}
+
+/* images */
+
+.github-icon{
+    width: 101px;
+    height: 6.125rem;
+
+}
+
+.linkedin-icon{
+    width: 6.125rem;
+    height: 6.125rem;
+}
+
+.email-icon{
+    width: 132.83px;
+    height: 6.125rem;
+}
+
+/* Texts */
+
+.text {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+@media screen and (max-width: 800px) { 
+
+    .links{
+        /* posicao */
+    
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 320px;
+        height: 570px;
+    }
+
+    .linkTree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

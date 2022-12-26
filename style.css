@@ -29,6 +29,7 @@ a {
     border-radius: 200px;
     padding: 0%;
     margin: 0%;
+    box-shadow: 0px 20px 100px black;
 }
 
 /* descricao */
@@ -80,19 +81,20 @@ a {
 /* images */
 
 .github-icon{
-    width: 101px;
-    height: 6.125rem;
+    width: 3.75rem;
+    height: 3.75rem;
 
 }
 
 .linkedin-icon{
-    width: 6.125rem;
-    height: 6.125rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    /* 60px */
 }
 
 .email-icon{
-    width: 132.83px;
-    height: 6.125rem;
+    width: 71px;
+    height: 3.25rem;
 }
 
 /* Texts */
@@ -114,7 +116,7 @@ a {
         display: grid;
         grid-template-columns: 1fr;
 
-        width: 320px;
+        width: 250px;
         height: 570px;
     }
 
